@@ -1,4 +1,4 @@
-import { CMS_NAME } from '../lib/constants'
+import {CMS_NAME} from '../lib/constants'
 
 const Intro = () => {
   return (
@@ -13,9 +13,9 @@ const Intro = () => {
           className="underline hover:text-blue-600 duration-200 transition-colors"
           target="_blank"
         >
-                 
+          LinkedIn
         </a>{' '}
-            {CMS_NAME}.   
+     
       </h4>
     </section>
   )
