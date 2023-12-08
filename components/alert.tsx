@@ -29,14 +29,14 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              The source code for this Portfolio is{' '}
               <a
-                href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
+                href="https://github.com/Sabrinapope/sabrina-portfolio"
                 className="underline hover:text-blue-600 duration-200 transition-colors"
               >
                 available on GitHub
               </a>
-              .
+              
             </>
           )}
         </div>
